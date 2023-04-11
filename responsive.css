@@ -1,0 +1,118 @@
+@media only screen and (max-width: 767px) {
+  .widget-tit {
+    font-size: 38px;
+  }
+  ul.listnone.phase {
+    padding: 0px;
+  }
+  .top_food_heading h1 {
+    font-size: 2rem;
+  }
+  .top_food_heading u {
+    color: #54382a !important;
+    font-weight: 900;
+  }
+
+  li.Phase {
+    padding: 0 0 0px 0px;
+  }
+  .dog_food {
+    margin-bottom: 80px;
+  }
+  img.card-img-top {
+    margin-bottom: 25px;
+  }
+  .testimonial {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  iframe#contact {
+    width: 370px;
+    height: 360px;
+  }
+  div#pre-footer {
+    width: 390px;
+  }
+  section.phase {
+    padding: 0px;
+  }
+  .main_add.aos-init.aos-animate {
+    margin-bottom: 15px;
+  }
+  div#mane {
+    margin-top: 12px;
+  }
+  .col-md-5.p-5.shadow-sm.border.rounded-5.border-primary.bg-white {
+    width: 370px;
+  }
+  .main_next {
+    margin-top: 40px;
+  }
+  .main_add {
+    width: 100%;
+  }
+  .mainn {
+    display: flex;
+    align-items: baseline;
+}
+}
+
+/* @media only screen and (max-width: 1200px) {
+    li.Phase {
+     padding:0; 
+      text-align: left;
+  }
+  .widget-tit {
+    color: #fff;
+    font-weight: 700;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+    text-align: initial;
+    font-size: 30px;
+    font-family: "Poppins", sans-serif;
+
+}
+.mainn {
+    display: flex;
+    align-items: baseline;
+    gap: 10px;
+}
+  
+  
+  
+  
+    }
+   */
+
+   @media only screen and (max-width: 1920px) and (min-width: 1200px)  {
+  footer {
+    width: 100%;
+
+  }
+
+  li.Phase {
+    padding: 0 !important;
+}
+.mainn {
+    display: flex;
+    align-items: baseline;
+    gap: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

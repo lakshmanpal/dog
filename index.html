@@ -1,0 +1,1098 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- bootstrap link -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous">
+    <!-- font awesome cdn -->
+    <link rel="stylesheet" href="https://kit.fontawesome.com/29326472ac.css"
+      crossorigin="anonymous">
+    <!-- styles css -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- Cdn for review section -->
+    <link href='https://fonts.googleapis.com/css?family=Poppins'
+      rel='stylesheet'>
+    <link rel="stylesheet" type="text/css"
+      href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <title>kitty website</title>
+    <!-- ................new ,,responsive.css,....... -->
+    <link rel="stylesheet" href="responsive.css">
+    <!-- ................new ,,responsive.css,....... -->
+  </head>
+
+  <body>
+    <!-- -------This codes makes a  navbar------------ -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary shadow-lg">
+      <div class="container-fluid">
+        <img src="images/main_logo.png" alt="" srcset="" class="main_logo">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">SignIn</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown dropdown-toggle" type="button"
+                id="dropdownMenuButton"
+                data-mdb-toggle="dropdown" aria-expanded="false" href=" #"
+                role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Categories
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <li><a class="dropdown-item" href="#">Dog food</a></li>
+                <li><a class="dropdown-item" href="#">Cat Food</a></li>
+                <li><a class="dropdown-item" href="#">Shop By Brands</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#">Accessories</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                Our Services
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Clinic</a></li>
+                <li><a class="dropdown-item" href="#">Grooming</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#">Ambulance</li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">AboutUs</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact-us.html">ContactUs</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control" type="search" placeholder="Search"
+                aria-label="Search">
+              <i class="fa-solid fa-cart-shopping shopping_cart"></i>
+              
+            </form>
+           
+          </div>
+        </div>
+      </nav>
+      <!------This code makes a slider -------------->
+      <div id="carouselExample" class="carousel slide mt-4"
+        data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="images/slider_img1.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="images/slider_img2.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="images/slider_img3.png" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button"
+          data-bs-target="#carouselExample" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button"
+          data-bs-target="#carouselExample" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+
+      <!-------This code makes top food  brand section--------------->
+      <div class="top_food_heading">
+        <h1><u>Top Food Brands</u></h1>
+        <p>Love a food brand? Find it here!</p>
+      </div>
+     
+        <section class="slide_fist">
+          <div class="testimonial">
+            <div class="container">
+             <div class="testimonial__inner">
+               <div class="testimonial-slider">
+                 <div class="testimonial-slide">
+                   <div class="testimonial_box">
+                     <div class="testimonial_box-inner">
+                       <div class="testimonial_box-top">
+                         
+                        
+                         <div class="testimonial_box-img">
+                          <img src="images/food_img4.png" alt="profile">
+                        </div>
+                        <div class="card_one text-center">
+                          <h4 class="card-title" style="color: #54382A; font-weight: bold;">Royal Canin</h4>
+                          <h6 class="card-text">Flat 10% Off</h6>
+                      </div>
+                        
+                       </div>
+                     </div>
+                   </div>
+                 </div>
+                 <div class="testimonial-slide">
+                  <div class="testimonial_box">
+                    <div class="testimonial_box-inner">
+                      <div class="testimonial_box-top">
+                         
+                        
+                        <div class="testimonial_box-img">
+                         <img src="images/food_img5.png" alt="profile">
+                       </div>
+                       <div class="card_one text-center">
+                        <h4 class="card-title" style="color: #54382A; font-weight: bold;">Farmina</h4>
+                        <h6 class="card-text">Fresh Products</h6>
+                    </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="testimonial-slide">
+                  <div class="testimonial_box">
+                    <div class="testimonial_box-inner">
+                      <div class="testimonial_box-top">
+                         
+                        
+                        <div class="testimonial_box-img">
+                         <img src="images/food_img2.png" alt="profile">
+                       </div>
+                       <div class="card_one text-center">
+                        <h4 class="card-title" style="color: #54382A; font-weight: bold;">Whiskas</h4>
+                        <h6 class="card-text">Flat 15% Off</h6>
+                    </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="testimonial-slide">
+                  <div class="testimonial_box">
+                    <div class="testimonial_box-inner">
+                      <div class="testimonial_box-top">
+                         
+                        
+                        <div class="testimonial_box-img">
+                         <img src="images/food_img3.png" alt="profile">
+                       </div>
+                       <div class="card_one text-center">
+                        <h4 class="card-title" style="color: #54382A; font-weight: bold;">Pedigree</h4>
+                        <h6 class="card-text">Flat 15% Off</h6>
+                    </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+               </div>
+             </div>
+            </div>
+          </div>
+        </section>
+      
+      
+        <!------------ This code makes Categories section -------------->
+        <div class="top_food_heading">
+          <h1><u>Categories</u></h1>
+          <p>Explore Different Types of Catogries</p>
+        </div>
+        <div id="carouselExampleControls" class="carousel carousel-dark slide
+          pt-3" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="card-wrapper container-sm d-flex
+                justify-content-around">
+                <div class="card_catogries" style="width: 18rem;">
+                  <img src="images/Dog food.png" class="card-img" alt="...">
+                  <div class="card-body">
+                    <p class="card-text">Dog_food</p>
+                  </div>
+                </div>
+                <div class="card_catogries" style="width: 18rem;">
+                  <img src="images/catorgires_cat.png" class="card-img"
+                    alt="...">
+                  <div class="card-body">
+                    <p class="card-text">Cat_food</p>
+                  </div>
+                </div>
+                <div class="card_catogries" style="width: 18rem;">
+                  <img src="images/cat_litter.png" class="card-img" alt="...">
+                  <div class="card-body">
+                    <p class="card-text">Cat_Litter</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="card-wrapper container-sm d-flex
+                justify-content-around">
+                <div class="card_catogries" style="width: 18rem;">
+                  <img src="images/cat.png" class="card-img" alt="...">
+                  <div class="card-body">
+                    <p class="card-text">Treats</p>
+                  </div>
+                </div>
+                <div class="card_catogries" style="width: 18rem;">
+                  <img src="images/Accessories.png" class="card-img" alt="...">
+                  <div class="card-body">
+                    <p class="card-text">Catogries</p>
+                  </div>
+                </div>
+                <div class="card_catogries" style="width: 18rem;">
+                  <img src="images/gromming.png" class="card-img" alt="...">
+                  <div class="card-body">
+                    <p class="card-text">Gromming</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button"
+              data-bs-target="#carouselExampleControls"
+              data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button"
+              data-bs-target="#carouselExampleControls"
+              data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+          <!--------- This code makes finds for the week section-------- -->
+          <div class="top_food_heading pt-3">
+            <h1><u>Finds For The Week</u></h1>
+            <p>In The Spotlight</p>
+          </div>
+          <div class="container overflow-hidden text-center">
+             <!-- <div class="row gy-5" id="week">
+              <div class="col-md-4">
+                <div class="p-3">
+                  <img src="images/ProductOfWeek-1.png" class="card-img-top"
+                    alt="" srcset="">
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="p-3">
+                  <img src="images/ProductOfWeek-2.png" class="card-img-top
+                    alt="" srcset="">
+                </div>
+              </div>
+              <div class=" col-md-4">
+                <div class="p-3">
+                  <img src="images/ProductOfWeek-3.png" class="card-img-top"
+                    alt="" srcset="">
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="p-3">
+                  <img src="images/ProductOfWeek-4.png" class="card-img-top"
+                    alt="" srcset="">
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="p-3">
+                  <img src="images/ProductOfWeek-5.png" class="card-img-top"
+                    alt="" srcset="">
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="p-3">
+                  <img src="images/ProductOfWeek-6.png" class="card-img-top"
+                    alt="">
+                </div>
+              </div>
+            </div>  -->
+              
+
+
+
+
+
+
+
+            <div class="row" id="food_is_dog">
+              <div class="col-md-4">
+               
+                <div class="dog_food">
+                  <img src="images/ProductOfWeek-1.png" class="card-img-top"
+                  alt="" srcset="">
+
+                </div>
+              </div>
+              <div class="col-md-4">
+               
+                <div class="dog_food">
+                  <img src="images/ProductOfWeek-2.png" class="card-img-top
+                  alt="" srcset="">
+
+                </div>
+              </div>
+              <div class="col-md-4">
+               
+                <div class="dog_food">
+                  <img src="images/ProductOfWeek-3.png" class="card-img-top"
+                  alt="" srcset="">
+
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-4">
+               
+                <div class="dog_food">
+                  <img src="images/ProductOfWeek-4.png" class="card-img-top"
+                  alt="" srcset="">
+
+                </div>
+              </div>
+              <div class="col-md-4">
+               
+                <div class="dog_food">
+                  <img src="images/ProductOfWeek-5.png" class="card-img-top"
+                  alt="" srcset="">
+
+                </div>
+              </div>
+              <div class="col-md-4">
+               
+                <div class="dog_food">
+                  <img src="images/ProductOfWeek-6.png" class="card-img-top"
+                  alt="" srcset="">
+
+                </div>
+              </div>
+            </div>
+          </div>
+          
+
+          <!---------This code makes most sold Catogries----------->
+          <div class="top_food_heading">
+            <h1><u>Most Sold Catogries</u></h1>
+            <p>Top Purchased Item!</p>
+          </div>
+          <div class="container text-center pt-4">
+            <div class="row g-2">
+              <div class="col-md-3">
+                <div class="p-2">
+                  <img src="images/CAT LITTER-1.png" class="card-img-top"
+                    alt="" srcset="">
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="p-2">
+                  <img src="images/CAT LITTER-2.png" class="card-img-top"
+                    alt="" srcset="">
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="p-2">
+                  <img src="images/CAT LITTER-3.png" class="card-img-top"
+                    alt="" srcset="">
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="p-2">
+                  <img src="images/CAT LITTER-4.png" class="card-img-top"
+                    alt="" srcset="">
+                </div>
+              </div>
+            </div>
+            <div class="row g-2 pt-5 mt-2">
+              <div class="col-md-3">
+                <div class="p-2">
+                  <img src="images/CAT LITTER-5.png" class="card-img-top"
+                    alt="" srcset="">
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="p-2">
+                  <img src="images/CAT LITTER-6.png" class="card-img-top"
+                    alt="" srcset="">
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="p-2">
+                  <img src="images/CAT LITTER-7.png" class="card-img-top"
+                    alt="" srcset="">
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="p-2">
+                  <img src="images/CAT LITTER-8.png" class="card-img-top"
+                    alt="" srcset="">
+                </div>
+              </div>
+            </div>
+          </div>
+          <!----------This code makes Brands are in training--------->
+          <div class="top_food_heading pt-5">
+            <h1><u>Brands are in Trending</u></h1>
+            <p>Your Furry Friends Would Love These!</p>
+          </div>
+          <div class="container px-4 text-center">
+            <div class="row gx-5">
+              <div class="col-md-6">
+                <div class="p-6 pt-5">
+                  <img src="images/trend1.png" class="card-img-top" alt=""
+                    srcset="">
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="p-6 pt-5">
+                  <img src="images/Drools_Trends.png" class="card-img-top"
+                    alt="" srcset="">
+                </div>
+              </div>
+            </div>
+            <div class="row gx-5 pt-5">
+              <div class="col-md-6">
+                <div class="p-6 pt-5">
+                  <img src="images/Drools_Trends.png" class="card-img-top"
+                    alt="" srcset="">
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="p-6 pt-5">
+                  <img src="images/trend4.png" class="card-img-top" alt=""
+                    srcset="">
+                </div>
+              </div>
+            </div>
+            <div class="row gx-5 pt-3">
+              <div class="col-md-6">
+                <div class="p-6 pt-5">
+                  <img src="images/trend5.png" class="card-img-top" alt=""
+                    srcset="">
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="p-6 pt-5">
+                  <img src="images/trend6.png" class="card-img-top" alt=""
+                    srcset="">
+                </div>
+              </div>
+            </div>
+          </div>
+          <!---------This code makes Personal Care Products section--------->
+          <div class="grey-bg mt-5">
+            <div class="top_food_heading pt-3">
+              <h1><u>Personal Care Products</u></h1>
+              <p>Explore Personal Cautions for Your Pets!</p>
+            </div>
+            <div class="container overflow-hidden text-center">
+              <!-- <div class="row gx-3">
+                <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6">
+                  <div class="p-3">
+                    <img src="images/personalCare.png"
+                      class="card-img-top-curve" alt="" srcset="">
+                  </div>
+                </div>
+                <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6">
+                  <div class="p-3">
+                    <img src="images/personalCare2.png"
+                      class="card-img-top-curve" alt="" srcset="">
+                  </div>
+                </div>
+                <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6">
+                  <div class="p-3">
+                    <img src="images/personalCare3.png"
+                      class="card-img-top-curve" alt="" srcset="">
+                  </div>
+                </div>
+                <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6">
+                  <div class="p-3">
+                      <img src="images/personalCare2.png"
+                      class="card-img-top-curve" alt="" srcset="">
+                  </div>
+                </div>
+              </div> -->
+       
+              <div class="main_two">
+                <ul class="bick_dog"> 
+                  <li> <img src="images/personalCare.png"
+                    class="card-img-top-curve" alt="" srcset="">
+                   </li>
+                    <li> <img src="images/personalCare4.png"
+                      class="card-img-top-curve" alt="" srcset="">
+                     </li>
+                      <li> <img src="images/personalCare3.png"
+                        class="card-img-top-curve" alt="" srcset="">
+                       </li>
+                       
+                        <li> 
+                          <img src="images/personalCare.png"
+                          class="card-img-top-curve" alt="" srcset="">
+                         </li>
+                          
+                </ul>
+
+              </div>
+
+
+
+
+            </div>
+          </div>
+          <!-------This code makes Future Brands------------>
+          <div class="top_food_heading pt-3">
+            <h1><u>Future Brands</u></h1>
+            <p>Up Coming Brands In Futures!</p>
+          </div>
+          <div class="container-fluid overflow-hidden text-center">
+            <!-- <div class="row gx-2">
+              <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 border m-2">
+                <div class="p-2 mt-3 mb-3">
+                  <img src="images/fbrandPedi.png" class="card-img-top" alt=""
+                    srcset="">
+                </div>
+              </div>
+              <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 border m-2">
+                <div class="p-2 mt-3 mb-3">
+                  <img src="images/fbrandRoyal.jpg" class="card-img-top" alt=""
+                    srcset="">
+                </div>
+              </div>
+              <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 border m-2">
+                <div class="p-2 mt-3 mb-3">
+                  <img src="images/fbrandSchesir.png" class="card-img-top"
+                    alt="" srcset="">
+                </div>
+              </div>
+              <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 border m-2">
+                <div class="p-2 mt-3 mb-3">
+                  <img src="images/fbrandSheba.png" class="card-img-top" alt=""
+                    srcset="">
+                </div>
+              </div>
+              <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 border m-2">
+                <div class="p-2 mt-3 mb-3">
+                  <img src="images/fbrandSheba.png" class="card-img-top" alt=""
+                    srcset="">
+                </div>
+              </div>
+              <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 border m-2">
+                <div class="p-2 mt-3 mb-3">
+                  <img src="images/fbrandWhiskas.jpg" class="card-img-top"
+                    alt="" srcset="">
+                </div>
+              </div>
+            </div> -->
+            
+<div class="slider">
+	<div class="slide-track">
+		<div class="slide">
+			<img src="images/fbrandPedi.png" height="200" width="300" alt="" />
+		</div>
+		<div class="slide">
+			<img src="images/fbrandRoyal.jpg" height="200" width="250" alt="" />
+		</div>
+		<div class="slide">
+			<img src="images/fbrandSchesir.png" height="200" width="250" alt="" />
+		</div>
+		<div class="slide">
+			<img src="images/fbrandSchesir.png" height="200" width="250" alt="" />
+		</div>
+		<div class="slide">
+			<img src="images/fbrandWhiskas.jpg" height="200" width="250" alt="" />
+		</div>
+		<div class="slide">
+			<img src="images/fbrandSheba.png" height="200" width="250" alt="" />
+		</div>
+		<div class="slide">
+			<img src="images/Trixie.png" height="200" width="250" alt="" />
+		</div>
+		<div class="slide">
+			<img src="images/fbrandPedi.png" height="200" width="250" alt="" />
+		</div>
+		<div class="slide">
+			<img src="images/fbrandRoyal.jpg" height="200" width="250" alt="" />
+		</div>
+		<div class="slide">
+			<img src="images/fbrandSchesir.png" height="200" width="250" alt="" />
+		</div>
+		<div class="slide">
+			<img src="images/fbrandSchesir.png" height="200" width="250" alt="" />
+		</div>
+		<div class="slide">
+			<img src="images/fbrandWhiskas.jpg" height="200" width="250" alt="" />
+		</div>
+		<div class="slide">
+			<img src="images/fbrandSheba.png" height="200" width="250" alt="" />
+		</div>
+	</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- 
+           <div class="row" id="dogs_four">
+
+       
+            <div class="col-md-2">
+              <img src="images/fbrandPedi.png" class="card-img-top" alt=""
+              srcset="">
+
+            </div>
+            <div class="col-md-2">
+              <img src="images/fbrandRoyal.jpg" class="card-img-top" alt=""
+              srcset="">
+
+            </div>
+            <div class="col-md-2">
+              <img src="images/fbrandSchesir.png" class="card-img-top" alt=""
+              srcset="">
+
+            </div>
+            <div class="col-md-2">
+              <img src="images/fbrandSchesir.png" class="card-img-top" alt=""
+              srcset="">
+
+            </div>
+            <div class="col-md-2">
+              <img src="images/fbrandWhiskas.jpg" class="card-img-top" alt=""
+              srcset="">
+
+            </div>
+            <div class="col-md-2">
+              <img src="images/fbrandSheba.png" class="card-img-top" alt=""
+              srcset="">
+
+            </div>
+                
+           
+              
+            </div>
+            <div class="row" id="expect">
+              <div class="col-md-2">
+                <img src="images/Trixie.png" class="card-img-top" alt=""
+                srcset="">
+  
+              </div>
+            </div> -->
+          </div>
+          <!----------This code makes Our services section---------------->
+          <div class="top_food_heading pt-3">
+            <h1><u>Our Services</u></h1>
+            <p>Services You Expect From Us!</p>
+          </div>
+
+          <div class="row gx-6 m-3">
+            <div class="col" id="card_one">
+              <div class="p-2"> <img src="images/icon-1.png" alt="" srcset="">
+                <span class="services_text">Cash On
+                  Delivery</span>
+              </div>
+            </div>
+            <div class="col" id="card_two">
+              <div class="p-2"> <img src="images/icon-2.png" alt="" srcset="">
+                <span class="services_text">10 Days
+                  Rreturn</span> </div>
+            </div>
+            <div class="col" id="card_three">
+              <div class="p-2"> <img src="images/icon-3.png" alt="" srcset="">
+                <span class="services_text">24/7
+                  Support</span> </div>
+            </div>
+            <div class="col" id="card_four">
+              <div class="p-2"> <img src="images/icon-4.png" alt="" srcset="">
+                <span class="services_text">Payments
+                  Option</span> </div>
+            </div>
+          </div>
+        </div>
+        <!-----------This code makes Reviews section-------------->
+        <div class="top_food_heading pt-3">
+          <h1><u>Reviews From Our Customers</u></h1>
+        </div>
+        <div class="spacer2"></div>
+      
+          <div class="spacer"></div>
+          <div class="sd_master_wrapper">
+            <div class="sdtestBg2"></div>
+            <div class="sdtestBg3"></div>
+            <div class="slideshow">
+
+              <div class="content"> <!-- slide 1 -->
+                <div class="thumbnail">
+                  <img
+                    src="https://farsighttechnologies.com/wp-content/uploads/2020/09/AC.jpg">
+                </div>
+                <div class="btnNtxt">
+                  <div class="sdAllContent">
+
+                    <div class="sd_scroll">
+                      <h1 class="sdCustomSliderHeadig">Good products with
+                        reasonable discount free home delivery which I
+                        liked as I don't have to bother on getting in time for
+                        pickup the food... Super friendly staff.
+                      </h1>
+                    </div>
+                    <p class="SdClientName">Sri Satvik</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="content"> <!-- slide 2 -->
+                <div class="thumbnail">
+                  <img
+                    src="https://farsighttechnologies.com/wp-content/uploads/2020/09/MS.jpg">
+                </div>
+                <div class="btnNtxt">
+                  <div class="sdAllContent">
+
+                    <div class="sd_scroll">
+                      <h1 class="sdCustomSliderHeadig">Hellokittys - you have
+                        got a very good pets food with good
+                        discounts and a very good delivery service, even on
+                        Sundays also. Thanks alot for deliverying my
+                        pets food to my door step whenever I had ordered. Good
+                        job hellokittys. Keep it up!</h1>
+                    </div>
+                    <p class="SdClientName">Jeevitha Johny</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="content"> <!-- slide 3 -->
+                <div class="thumbnail">
+                  <img
+                    src="https://farsighttechnologies.com/wp-content/uploads/2020/09/RR.jpg">
+                </div>
+                <div class="btnNtxt">
+                  <div class="sdAllContent">
+
+                    <div class="sd_scroll">
+                      <h1 class="sdCustomSliderHeadig">I was ordering online
+                        before but wen I gotta know abt Hello Kitty
+                        Shop which is very near to my house I was very happy.
+                        Staffs are very friendly, very cooperative,
+                        I get attractive discounts on all products including.
+                      </h1>
+                    </div>
+                    <p class="SdClientName">Nagaraj Adibatti</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="content"> <!-- slide 4 -->
+                <div class="thumbnail">
+                  <img
+                    src="https://farsighttechnologies.com/wp-content/uploads/2020/12/testimonial.png">
+                </div>
+                <div class="btnNtxt">
+                  <div class="sdAllContent">
+                    <div class="sd_scroll">
+                      <h1 class="sdCustomSliderHeadig">Finally a store for pets
+                        near BSK 3rd stage, they have got all the
+                        items required for pets. Best place to look out for and
+                        also they do home deliveries and it's
+                        instant delivery. I am finally at peace now and don't.</h1>
+                    </div>
+                    <p class="SdClientName">Amith Kothanna</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="spacer"></div>
+
+
+
+          <section class="last_footer">
+            <div class="container-fluid">
+              <div class="FooterDiv">
+
+                <img src="images/main_logo.png" max-width: 350px;
+                  alt="ImageNOTFound">
+
+
+              </div>
+
+            </div>
+
+          </section>
+
+
+
+
+
+          <footer>
+            <div class="row">
+              <div class="col-md-4">
+
+                <div class="main_address">
+                  <h2 class="widget-tit">Stores Address</h2>
+
+
+                </div>
+
+
+                <div class="main_store">
+                  <ul class="main_undore">
+                    <li class="Phase">
+                      <div class="row">
+                        <div class="col-1">
+                          <i style="color: #fff;" class="fa-solid fa-location-dot"></i>
+                        </div>
+                        <div class="col-11">
+                          <a href="#" class="">
+                            294, Dr Puneeth Rajkumar Rd, near mane tindii,
+                            Kathriguppe IV Phase, Banashankari 3rd Stage,
+                            Banashankari, Bengaluru, Karnataka 560070
+                          </a>
+                        </div>
+                      </div>
+                    </li>
+                 
+                    <li class="Phase">
+                      <div class="row">
+                        <div class="col-1">
+                          <i style="color: #fff;" class="fa-solid fa-tty"></i>
+                        </div>
+                        <div class="col-11">
+                          <a href="#" class="">
+                            +91 980-473-7476
+                          </a>
+                        </div>
+                      </div>
+                    </li>
+                    <li class="Phase">
+                      <div class="row">
+                        <div class="col-1">
+                          <i style="color: #fff;" class="fa-solid fa-envelope"></i>
+                            fa-location-dot"></i>
+                        </div>
+                        <div class="col-11">
+                          <a href="#" class="">
+                            hellokittys2200@gmail.com
+                          </a>
+                        </div>
+                      </div>
+                    </li>
+                    
+                   
+
+                  </ul>
+
+                </div>
+
+              </div>
+
+
+              <div class="col-md-3">
+                <div class="main_address">
+                  <h2 class="widget-tit">Social Contacts</h2>
+                </div>
+
+                <ul class="listnone">
+                  <li class="Phase">
+                    <div class="row">
+                      <div class="col-1">
+                        <i style="color: #fff;" class="fa-brands fa-youtube"></i>
+                      </div>
+                      <div class="col-11">
+                        <a href="#" class="">
+                          Youtube
+                        </a>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="Phase">
+                    <div class="row">
+                      <div class="col-1">
+                        <i style="color: #fff;" class="fa-brands fa-twitter"></i>
+                      </div>
+                      <div class="col-11">
+                        <a href="#" class="">
+                          Twitter
+                        </a>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="Phase">
+                    <div class="row">
+                      <div class="col-1">
+                        <i style="color: #fff;" class="fa-brands fa-google-plus-g"></i>
+                      </div>
+                      <div class="col-11">
+                        <a href="#" class="">
+                          Google
+                        </a>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="Phase">
+                    <div class="row">
+                      <div class="col-1">
+                        <i style="color: #fff;" class="fa-brands fa-facebook"></i>
+                      </div>
+                      <div class="col-11">
+                        <a href="#" class="">
+                          Facebook
+                        </a>
+                      </div>
+                    </div>
+                  </li>
+                 
+                 
+                
+                
+                </ul>
+
+
+
+
+              </div>
+
+
+              <div class="col-md-5">
+                <div class="main_address">
+                  <h2 class="widget-tit">GetNewUpdates Everyday</h2>
+                </div>
+                <div class="main-fomr">
+                  <p>Enter your email address to receive new products
+                    information and other useful
+                    information right to your inbox.</p>
+
+
+                </div>
+                <form action="/action_page.php" id="our">
+                  <input type="text" placeholder="Your Name" class="form-control" name="name" id="name" required>
+                  <span class="input-group-btn">
+                    <button class="btn btn-default" style="background: #aa9144; color: #ffffff;" type="button">Subscribe</button>
+                </span>
+                </form>
+              </div>
+            </div>
+
+
+
+            <div class="tiny-footer">
+              <!-- tiny footer block -->
+              <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                  <i class="fa-solid fa-3x fa-copyright"></i>
+                  <div style="color: #fff;" class="copyright-content">
+                    Powered By Spaceweb <i class="fa-solid fa-heart"></i>
+                    <a style="color: #aa9144;"
+                      href="https://www.thespaceweb.in/">OUR PASSION IS YOUR
+                      SUCCESS!</a>
+                    <p style="color: #fff;" class="mb-5"><i class="fa-solid
+                        fa-envelope"></i> spaceweb104@gmail.com</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </footer>
+          <div class="fixed-bottom">
+            <div id="pre-footer">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <p class="text-center" style="color: #fff;">Only <u>Cash on Deliverys</u> <span style="color: #aa9144;">(COD)</span>
+                                are available. Website Still in progress!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          <!-- bootstrap cdn -->
+          <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+            crossorigin="anonymous"></script>
+          <!-- font awesome cdn -->
+          <script src="https://kit.fontawesome.com/29326472ac.js"
+            crossorigin="anonymous"></script>
+          <!-- script for review section -->
+          <script>
+          jQuery(document).ready(function ($) {
+            var $slickElement = $('.slideshow');
+
+            $slickElement.slick({
+              autoplay: true,
+              dots: false,
+            });
+
+          });
+
+          $(document).ready(function() {
+    $('.testimonial-slider').slick({
+        autoplay: true,
+        autoplaySpeed: 1000,
+        speed: 600,
+        draggable: true,
+        infinite: true,
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        arrows: false,
+        dots: false,
+        responsive: [
+            {
+              breakpoint: 991,
+              settings: {
+                slidesToShow: 2,
+                slidesToScroll: 1,
+              }
+            },
+            {
+                breakpoint: 575,
+                settings: {
+                  slidesToShow: 1,
+                  slidesToScroll: 1,
+                }
+            }
+        ]
+    });
+}); 
+        </script>
+        </body>
+
+      </html>

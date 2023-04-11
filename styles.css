@@ -1,0 +1,679 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;1,200&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+/* varibales */
+:root {
+  --bs-blue: #0d6efd;
+  --bs-indigo: #6610f2;
+  --bs-purple: #6f42c1;
+  --bs-pink: #d63384;
+  --bs-red: #dc3545;
+  --bs-orange: #fd7e14;
+  --bs-yellow: #ffc107;
+  --bs-green: #198754;
+  --bs-teal: #20c997;
+  --bs-cyan: #0dcaf0;
+  --bs-white: #fff;
+  --bs-gray: #6c757d;
+  --bs-gray-dark: #343a40;
+  --bs-primary: #0d6efd;
+  --bs-secondary: #6c757d;
+  --bs-success: #198754;
+  --bs-info: #0dcaf0;
+  --bs-warning: #ffc107;
+  --bs-danger: #dc3545;
+  --bs-light: #f8f9fa;
+  --bs-dark: #212529;
+  --bs-font-montserrat: "Montserrat", sans-serif;
+  --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas,
+    "Liberation Mono", "Courier New", monospace;
+  --bs-gradient: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.15),
+    rgba(255, 255, 255, 0)
+  );
+}
+/* global */
+body {
+  font-family: var(--bs-font-montserrat);
+}
+
+/* main logo */
+.main_logo {
+  width: 220px;
+}
+/* navigation bar */
+.navbar-nav {
+  padding: 4px 42px;
+  color: rgba(0, 0, 0, 0.9);
+}
+/* drop down toggle menu */
+.dropdown:hover > .dropdown-menu {
+  display: block;
+}
+.dropdown > .dropdown-toggle:active {
+  /*Without this, clicking will make it sticky*/
+  pointer-events: none;
+}
+.dropdown-menu {
+  background-color: #54382a;
+}
+a.nav-link {
+  color: black;
+  font-weight: 800;
+}
+.dropdown-menu li a {
+  color: white;
+}
+/* shopping cart icon */
+.shopping_cart {
+  padding: 10px;
+  margin-right: 12px;
+  font-size: 20px;
+}
+.form-control {
+  border-radius: 50px;
+}
+input.form-control {
+  margin-right: 8px;
+}
+/* .shadow-lg {
+  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175) !important;
+} */
+/* ===========top food section============ */
+.top_food_heading {
+  text-align: center;
+  font-family: var(--bs-font-montserrat);
+  margin-top: 20px;
+}
+.top_food_heading h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #54382a;
+}
+.top_food_heading p {
+  color: rgba(255, 166, 0, 0.861);
+}
+/* top food brands */
+.card {
+  border-color: white;
+}
+.card-body {
+  text-align: center;
+}
+.card-body h1 {
+  color: #54382a;
+  font-weight: bold;
+  font-size: 35px;
+}
+.card-body p {
+  color: black;
+  font-size: 20px;
+}
+/* catogries section */
+
+.card_catogries {
+  border: 1px solid black;
+  border-radius: 15px 50px;
+  padding: 10px;
+  box-shadow: 5px 10px 8px #888888;
+}
+.card-text {
+  padding-top: 5px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* finds for the week */
+.card-img-top {
+  width: 100%;
+}
+i.fa-solid.fa-cart-shopping.shopping_cart {
+  color: #fff;
+  background-color: #6c757d;
+  border-color: #6c757d;
+  border-radius: 5px;
+}
+
+a.nav-link {
+  font-size: 14px;
+}
+/* personal care section  */
+.grey-bg {
+  background: #d9ccc5;
+}
+.card-img-top-curve {
+  width: 100%;
+  border-radius: 20px;
+}
+/* our services */
+#card_one {
+  border: 1px solid black;
+  border-radius: 15px 50px 30px;
+  background: #eee;
+  box-shadow: 0 8px 8px -4px lightblue;
+}
+#card_two {
+  border: 1px solid black;
+  border-radius: 15px 20px 10px;
+  margin: 5px;
+  background: #eee;
+  box-shadow: 0 8px 8px -4px lightblue;
+}
+#card_three {
+  border: 1px solid black;
+  border-radius: 15px 20px 10px;
+  margin: 5px;
+  background: #eee;
+  box-shadow: 0 8px 8px -4px lightblue;
+}
+#card_four {
+  border: 1px solid black;
+  border-radius: 15px 20px 10px;
+  margin: 5px;
+  background: #eee;
+  box-shadow: 0 8px 8px -4px lightblue;
+}
+.services_text {
+  font-weight: bold;
+}
+/* style for review section */
+* spacer */ .spacer {
+  height: 150px;
+  width: 100%;
+}
+.spacer2 {
+  height: 20px;
+  width: 100%;
+}
+/* spacer ends */
+
+/* slider styles */
+.sd_master_wrapper {
+  position: relative;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0;
+  border-radius: 10px;
+  z-index: 9999;
+}
+.sdtestBg3 {
+  height: 100%;
+  width: 80%;
+  background: #fff;
+  position: absolute;
+  bottom: -40px;
+  left: 10%;
+  border-radius: 20px;
+  box-shadow: 0px 18px 52.8537px rgb(215 228 249 / 50%);
+  z-index: 1;
+}
+.sdtestBg2 {
+  height: 100%;
+  width: 90%;
+  background: #fff;
+  position: absolute;
+  bottom: -22px;
+  left: 5%;
+  border-radius: 20px;
+  box-shadow: 0px 18px 52.8537px rgb(215 228 249 / 50%);
+  z-index: 2;
+}
+
+.sd_scroll {
+  height: auto;
+  max-height: 180px;
+  overflow: auto;
+}
+
+.slideshow {
+  position: relative;
+  min-height: 300px;
+  height: auto;
+  background: #fff;
+  box-shadow: 0px 18px 52.8537px rgba(215, 228, 249, 0.5);
+  border-radius: 20px;
+  background-image: url(https://farsighttechnologies.com/wp-content/uploads/2021/03/quote1.png),
+    url(https://farsighttechnologies.com/wp-content/uploads/2021/03/quote.png);
+  background-position: top 15px left 15px, bottom 40% right 15px;
+  background-repeat: no-repeat;
+  background-size: 180px, 180px;
+  z-index: 3;
+}
+button.slick-prev.slick-arrow {
+  position: absolute;
+  z-index: 9999;
+  bottom: -80px;
+  right: 160px;
+  background: transparent;
+  color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  height: 15px;
+  width: 30px;
+  padding: 0;
+  background-image: url(https://farsighttechnologies.com/wp-content/uploads/2021/03/left-icon.png);
+  background-size: 100% 100%;
+}
+button.slick-next.slick-arrow {
+  position: absolute;
+  bottom: -82px;
+  right: 105px;
+  background: transparent;
+  color: transparent;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  outline: none;
+  height: 18px;
+  width: 40px;
+  background-image: url(https://farsighttechnologies.com/wp-content/uploads/2021/03/right-icon.png);
+  background-size: 100% 100%;
+}
+.pagingInfo {
+  position: absolute;
+  bottom: 0;
+  z-index: 999;
+}
+.sdCustomSliderHeadig {
+  color: #94a2b3;
+  font-family: "Poppins", Sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.6em;
+  text-align: center;
+}
+.sdCustomSliderBtn {
+  display: inline-block;
+  text-decoration: none;
+  font-family: montserrat;
+  background: #e31c3a;
+  color: #fff;
+  padding: 12px 25px;
+  margin-top: 30px;
+  border-radius: 4px;
+  outline: none;
+  font-size: 14px;
+  font-weight: 500;
+}
+.sdAllContent {
+  width: 75%;
+  margin: auto;
+}
+.thumbnail img {
+  height: 55px;
+  width: 55px;
+  border-radius: 50%;
+  margin: auto;
+  margin-top: 15px;
+}
+.content {
+  display: block !important;
+  padding: 5px;
+}
+.SdClientName {
+  text-align: center;
+  color: #272d4e;
+  font-family: "Poppins", Sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.4em;
+  margin-top: 15px;
+}
+.SdClientDesc {
+  text-align: center;
+  color: #7854f7;
+  font-family: "Poppins", Sans-serif;
+  font-size: 14px;
+  line-height: 1.4em;
+  margin-bottom: 10px;
+}
+
+/* style for moblile */
+@media (max-width: 576px) {
+  .sd_scroll {
+    height: auto;
+    overflow: auto;
+    max-height: 240px;
+  }
+
+  .thumbnail,
+  .btnNtxt {
+    width: 100% !important;
+    display: block !important;
+  }
+}
+/* scroll bar */
+/* total width */
+.sd_scroll::-webkit-scrollbar {
+  background-color: transparent;
+  width: 6px;
+}
+
+/* background of the scrollbar except button or resizer */
+.sd_scroll::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+.sd_scroll::-webkit-scrollbar-track:hover {
+  background-color: transparent;
+}
+
+/* scrollbar itself */
+.sd_scroll::-webkit-scrollbar-thumb {
+  background-color: #babac0;
+  border-radius: 16px;
+}
+.sd_scroll::-webkit-scrollbar-thumb:hover {
+  background-color: #a0a0a5;
+}
+
+/* ..................... foooter.......... css.... */
+.FooterDiv img {
+  width: 100%;
+  max-width: 352px;
+}
+section.last_footer {
+  background: #aa9144;
+  margin-top: 100px;
+}
+.FooterDiv {
+  text-align: initial;
+}
+
+footer {
+  background-color: #282725;
+  padding: 40px 40px 10px 40px;
+  border-radius: 10px;
+}
+
+.widget-tit {
+  color: #fff;
+  font-weight: 700;
+  padding-bottom: 20px;
+  margin-bottom: 30px;
+  text-align: initial;
+  font-size: 35px;
+  font-family: "Poppins", sans-serif;
+}
+li.Phase a {
+  text-decoration: none;
+
+  font-size: 15px;
+  color: #747474;
+  line-height: 34px;
+}
+/* li.Phase {
+  padding: 0 0 8px 40px;
+} */
+ul.main_undore {
+  padding-left: 0px;
+}
+li.Phase {
+  padding: 0 0 8px 40px;
+  text-align: left;
+}
+
+ul.listnone a {
+  color: white;
+  text-decoration: none;
+  font-size: 15px;
+  color: #747474;
+  line-height: 34px;
+}
+ul.listnone {
+  text-align: initial;
+}
+
+.main-fomr p {
+  font-size: 15px;
+  color: #747474;
+  line-height: 34px;
+  text-align: initial;
+}
+
+.fa-solid,
+.fas {
+  font-weight: 900;
+  color: #56575e;
+}
+i.fa-solid.fa-heart {
+  color: white;
+}
+i.fa-solid.fa-envelope {
+  color: white;
+}
+.copyright-content a {
+  text-decoration: none;
+}
+#pre-footer {
+  background: #54382a;
+  color: #ffffff;
+}
+u {
+  color: #ff3368;
+}
+p.text-center {
+  font-size: 16px;
+  margin-bottom: 0px;
+}
+.fixed-bottom {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 999999999999999;
+}
+
+label#enter {
+  width: 100%;
+}
+/* ..................... foooter.......... css.. end.. */
+
+input#name {
+  width: 80%;
+  height: 48px;
+  color: #eee;
+  background-color: #393836;
+  border: none;
+  box-shadow: none;
+  font-size: 14px;
+  border-radius: 30px 0px 0px 30px;
+}
+
+form#our {
+  display: flex;
+}
+button.btn.btn-default {
+  height: 48px;
+}
+.tiny-footer {
+  text-align: center;
+}
+
+/* .....................new slider............. */
+
+.testimonial {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.testimonial-slide {
+  padding: 40px 20px;
+}
+
+.testimonial_box-icon {
+  padding: 10px 0;
+}
+.testimonial_box-icon i {
+  font-size: 25px;
+  color: #14213d;
+}
+.testimonial_box-text {
+  padding: 10px 0;
+}
+.testimonial_box-text p {
+  color: #293241;
+  font-size: 14px;
+  line-height: 20px;
+  margin-bottom: 0;
+}
+.testimonial_box-img {
+  display: flex;
+  justify-content: center;
+}
+.testimonial_box-img img {
+  width: 433px;
+}
+.testimonial_box-img img {
+  width: 100%;
+}
+.card-text {
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1.5rem;
+  color: #000;
+}
+section.slide_fist {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+h4.card-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 1.75rem;
+}
+div#food_is_dog {
+  margin-bottom: 85px;
+}
+.text-center {
+  margin-top: 15px;
+  text-align: center !important;
+}
+img.card-img-top-curve {
+  width: 100%;
+  max-width: 300px;
+}
+ul.bick_dog li {
+  list-style: none;
+}
+ul.bick_dog {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+/* img.card-img-top {
+  width: 100%;
+  max-width: 320px;
+}
+ul.dog_person li {
+  list-style: none;
+}
+ul.dog_person {
+  display: flex;
+  flex-wrap: wrap;
+} */
+div#expect {
+  margin-top: 70px;
+}
+
+/* ......................contact................ */
+.main_add {
+  width: 400px;
+}
+a.rd {
+  text-decoration: none;
+  color: black;
+  color: white;
+}
+section.phase {
+  padding: 50px;
+}
+
+.main_add {
+  background: #282725;
+  padding: 40px;
+  border-radius: 20px;
+}
+li.Phase a {
+  color: white;
+}
+.main-fomr p {
+  color: white;
+}
+section.phase_note {
+  margin-bottom: 50px;
+}
+
+/* ......................contact............. end... */
+
+.d-flex.align-items-center {
+  width: 1000px;
+}
+section.two_last {
+  padding-top: 50px;
+}
+iframe#contact {
+  width: 600px;
+  height: 630px;
+}
+.col-md-5.p-5.shadow-sm.border.rounded-5.border-primary.bg-white {
+  width: 100%;
+}
+.dropdown-menu:hover {
+  background-color: #54382a;
+}
+ul.dropdown-menu {
+  background-color: #54382a;
+}
+
+.col-md-6.p-5.shadow-sm.border.rounded-5.border-primary.bg-white {
+  width: 100% !important;
+}
+input#name {
+  margin-right: 0px;
+}
+/* .............slider..... logo ............. */
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(calc(-250px * 7));
+  }
+}
+.slider {
+  height: 250px;
+  margin: auto;
+  overflow: hidden;
+  position: relative;
+  width: auto;
+}
+.slider .slide-track {
+  animation: scroll 40s linear infinite;
+  display: flex;
+  width: calc(250px * 14);
+}
+.slider .slide {
+  height: 100px;
+  width: 250px;
+}
+.main_add {
+  margin-bottom: 20px;
+}
+
+
+
+
+
+
+
+
